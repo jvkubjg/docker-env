@@ -1,5 +1,9 @@
 # Docker development enviroment
-Inspired from: AGhost-7
+
+
+Ready: 
+ubuntu-base
+tmux
 
 
 
