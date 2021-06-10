@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 set -ex
-
+export USER=jvkubjg
 sudo apt-get update
 
 apt-install () {

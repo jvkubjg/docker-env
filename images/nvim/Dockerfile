@@ -1,3 +1,4 @@
+ARG BASE_TAG=focal
 
 FROM jvkubjg/tmux:latest
 
@@ -16,4 +17,3 @@ COPY ./ycm-install /usr/local/bin/ycm-install
 
 RUN /tmp/build.sh && \
 	sudo rm /tmp/build.sh
-
