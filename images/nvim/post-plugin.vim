@@ -18,6 +18,7 @@ set background=dark
 " Add a mapping for the NERDTree command, so you can just type :T to open
 command T NERDTree
 
+nmap <C-n> :NERDTreeToggle<CR>
 " abbreviate T to t
 cabbrev t T
 
