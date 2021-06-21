@@ -19,4 +19,10 @@ sudo apt-get update
 sudo apt-get install -y --no-install-recommends terraform
 # }}} 
 
+# }}} plugin additions
+cat /tmp/plugin.vim >> "/home/jvkubjg/.config/nvim/plugin.vim"
+nvim +PlugInstall +qall
+# }}} 
+
+
 
