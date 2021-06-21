@@ -24,5 +24,7 @@ cat /tmp/plugin.vim >> "/home/jvkubjg/.config/nvim/plugin.vim"
 nvim +PlugInstall +qall
 # }}} 
 
-
+# }}} post-plugin additions 
+cat /tmp/post-plugin.vim >> "/home/jvkubjg/.config/nvim/post-plugin.vim"
+# }}}
 
