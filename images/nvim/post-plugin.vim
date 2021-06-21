@@ -1,4 +1,3 @@
-
 " Buffer delete all others (delete all except current one)
 command Bdo BufOnly
 cabbrev bdo BufOnly
@@ -109,3 +108,4 @@ let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
 
 " point to c implementation of editorconfig
 let g:EditorConfig_exec_path = '/usr/bin/editorconfig'
+nnoremap q <c-v>
